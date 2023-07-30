@@ -1,0 +1,171 @@
+*{
+    margin: 0% auto;
+}
+.contenedor1{
+    width: 65vw;
+    height: 100vh;
+    background-color: rgb(59, 201, 240);
+    display: flex;
+}
+.contenedor2{
+    width: 35%;
+    background-color: rgb(225, 240, 243);
+}
+.DATOS{
+    width: 65%;
+}
+#photo{
+    display: flex;
+    margin-top: 10px;
+    width: 50%;
+    height: 20%;
+    border-radius: 20vh;
+}
+#XP{
+    margin-top: 5px;
+    text-align: center;
+}
+.CELPHONE{
+    margin-top: 10px;
+    width: 12%;
+    height: 5%;
+    border-radius: 20px;
+}
+.correo{
+    margin-top: 10px;
+    width: 12%;
+    height: 5%;
+    border-radius: 20px;
+}
+.IMG{
+    margin-top: 10px;
+    width: 12%;
+    height: 5%;
+    border-radius: 20px;
+}
+.GIT{
+    margin-top: 10px;
+    width: 12%;
+    height: 5%;
+    border-radius: 20px;
+}
+h5{
+    margin-top: 15px;
+    text-align: justify;
+    float: right;
+}
+.INT{
+    margin-top: 5px;
+    text-align: center;
+}
+.margen{
+    margin-top: 15px;
+
+}
+.ramdon{
+    margin-top: 5px;
+    text-align: center;
+}
+.container3{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row | row-reverse | column | column-reverse;
+    
+}
+.judo{
+    width: 20%;
+    height: 5%;
+    border-radius: 20px;
+}
+.games{
+    width: 20%;
+    height: 5%;
+    border-radius: 20px;
+}
+.leer{
+    width: 20%;
+    height: 10%;
+    border-radius: 20px;
+}
+.comer{
+    width: 20%;
+    height: 10%;
+    border-radius: 20px;
+}
+#container4{
+    width: 100%;
+    height: 39%;
+}
+.name{
+    font-size: 3em;
+    margin-top: 0px;
+    text-align: center;
+}
+.profesion{
+    text-align: center;
+    color: beige;
+    margin-top: 5px;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    justify-content: center;
+}
+.container5{
+    width: 100%;
+    height: 60%;
+}
+.info{
+    text-align: center;
+
+}
+.sobre-mi{
+    text-align: center;
+
+}
+.education{
+    text-align: center;
+    color: beige;
+    margin-top: 5px;
+}
+.XP3{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.container6{
+    float: left;
+    
+
+}
+#container7{
+    float: right;
+}
+
+@media screen and (max-width: 936px){
+    .contenedor2 {
+    width: 35%;
+    background-color: rgb(225, 240, 243);
+    flex-direction: column;
+    display: flex;}
+    #photo {
+            display: flex;
+            margin-top: 10px;
+            width: 200%;
+            height: 100%;
+            border-radius: 20vh;
+        }
+                .name {
+                    font-size: 1em;
+                    margin-top: 0px;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;}
+                                        #container4 {
+                                            width: 100%;
+                                            height: 39%;
+                                            display: flex;
+                                            flex-direction: column;
+
+}
